@@ -8,7 +8,7 @@ export default function Expenses({ expenses }) {
 
     const [filteredYear, setFilteredYear] = useState('2020');
 
-    const filterChangeHandler = selectedYear => {
+    const filterChangeHandler = (selectedYear) => {
         setFilteredYear(selectedYear);
     };
 
