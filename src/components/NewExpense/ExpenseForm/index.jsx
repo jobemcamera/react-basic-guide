@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './ExpenseForm.css'
 
-export const ExpenseForm = ({ onSaveExpenseDate, onCancel}) => {
+const ExpenseForm = ({ onSaveExpenseDate, onCancel}) => {
 
     // Forma principal (tudo separado)
     const [enteredTitle, setEnteredTitle] = useState('');
@@ -97,3 +97,5 @@ export const ExpenseForm = ({ onSaveExpenseDate, onCancel}) => {
         </form>
     )
 }
+
+export default ExpenseForm
